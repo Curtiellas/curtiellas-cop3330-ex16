@@ -18,12 +18,16 @@ public class App
 
         System.out.println("What is your age? ");
 
+        String no;
+
         //check inout without saving it to a variable
         if (sc.nextInt() >= threshold)
-            System.out.println("You are old enough to legally drive.\n");
+            no = " ";
 
         else
-            System.out.println("You are not old enough to legally drive.\n");
+            no = " not ";
+
+            System.out.printf("You are%sold enough to legally drive.\n", no);
 
     }
 }
