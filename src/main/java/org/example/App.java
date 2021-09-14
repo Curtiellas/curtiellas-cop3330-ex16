@@ -16,7 +16,7 @@ public class App
         //16 years or older
         final int threshold = 16;
 
-        System.out.println("What is your age? ");
+        System.out.print("What is your age? ");
 
         String no;
 
@@ -27,7 +27,7 @@ public class App
         else
             no = " not ";
 
-            System.out.printf("You are%sold enough to legally drive.\n", no);
+        System.out.printf("You are%sold enough to legally drive.\n", no);
 
     }
 }
